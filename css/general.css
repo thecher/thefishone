@@ -1,0 +1,227 @@
+body {
+	padding:0px;
+	margin:0px;
+	background:#eee;
+	font-family:"gill sans",helvetica,arial,"sans serif";
+}
+.clear {
+	clear:both;
+}
+a {
+	text-decoration:none;
+}
+p {
+	font-size:14px;
+	line-height:22px;
+}
+footer, header, nav, aside, section {
+	display:block;
+}
+#container {
+	width:900px;
+	margin:20px auto;
+	background:#fff;
+	border-radius:10px 10px 3px 3px;
+	box-shadow:2px 2px 5px rgba(0,0,0,.4);
+}
+header {
+	padding:10px;
+}
+header h1 {
+	font-size:18pt;
+	font-weight:normal;
+	border-bottom:solid 1px #eee;
+	padding:0px 10px 10px 10px;
+}
+header h2 {
+	font-size:13pt;
+	font-style:italic;
+	font-weight:normal;
+	text-indent:30px;
+	color:#777;
+}
+#main{ 
+	padding:10px;
+}
+
+/* FOOTER */
+footer {
+	padding:10px;
+	background:url("../imgs/gtb_background.png") repeat-x top left #000;
+	color:#aaa;
+	border-radius:0px 0px 3px 3px;
+}
+footer span {
+	display:block;
+	font-size:10pt;
+	margin:5px 0px;
+}
+footer section span:first-child {
+	font-size:11pt;
+	border-bottom:solid 1px #333;
+	font-weight:bold;
+	color:#ccc;
+}
+footer section {
+	float:left;
+	width:30%;
+	background:rgba(0,0,0,.2);
+	margin:10px 5%;
+	padding:5px;
+	border-radius:3px;
+}
+
+/* HOME PAGE CONTENTS */
+aside {
+	width:28%;
+	font-size:10pt;
+	text-align:justify;
+	border:solid 1px #eee;
+	padding:5px;
+	color:#777;
+	float:left;
+}
+aside h2 {
+	font-size:14pt;
+	margin:5px 0px;
+	font-weight:normal;
+	color:#000;
+}
+aside span.time {
+	color:#000;
+	background:#eee;
+	padding:3px;
+	width:100%;
+	display:block;
+}
+aside div {
+	border-bottom:solid 1px #eee;
+	margin:10px 0px;
+}
+aside div:last-of-type {
+	border:none;
+	margin-bottom:0px;
+}
+article.home {
+	width:68%;
+	float:right;
+}
+article.home div {
+	margin:10px 0px;
+}
+
+/* STAFF PAGE */
+.article {
+	padding:5px;
+	margin:0px;
+}
+.article header img {
+	float:left;
+	margin:5px 10px 0px 0px;
+}
+.question header img {
+	margin:13px 10px 0px 0px;
+}
+.staffArticle {
+	background:#f5f5f5;
+	border-bottom:solid 1px #999;
+	margin:0px 10px;
+}
+.staffArticle:last-child {
+	margin-bottom:10px;
+	border:none;
+}
+.staffArticle:first-child {
+	margin-top:10px;
+}
+.article header h2 {
+	font-style:normal;
+	color:#000;
+	margin:0px;
+	text-indent:0px;
+	font-weight:bold;
+}
+.question {
+	margin:0px 10px;
+	padding:10px 5px 10px 5px;
+	border-bottom:solid 1px #eee;
+}
+.question h2 {
+	font-size:16px;
+	font-weight:normal;
+}
+.staffArticle header {
+	background:#eee;
+	border-radius:4px;
+}
+.article header:hover {
+	cursor:pointer;
+}
+.staffArticle section {
+	padding:10px;
+}
+.staffArticle img {
+	float:left;
+	margin:0px 15px 0px 0px;
+}
+.article hr {
+	background:transparent;
+	border:none;
+	clear:both;
+	margin:0px;
+}
+.article p {
+	margin:auto 15px;
+}
+
+/* tours pages */
+#tour {
+	padding:10px 20px;
+}
+#tour img{
+	float:left;
+	margin:0px 10px 10px 0px;
+	border:solid 10px #eee;
+	border-radius:10px;
+}
+#tour h2, h3 {
+	margin:0px;
+}
+#tour h2 {
+	font-style:normal;
+	font-size:25px;
+	text-indent:0px;
+}
+#tour h3 {
+	font-size:18px;
+	font-weight:normal;
+	font-style:italic;
+}
+
+/* =Gallery css */
+#gallery #slides img {
+	position:absolute;
+	top:auto;
+}
+#gallery #slideshow {
+	background:#000;
+	border-radius:5px;
+	width:600px;
+	padding:10px;
+	margin:0px 40px 20px 40px;
+	text-align:center;
+}
+#gallery #slides {
+	min-height:400px;
+	overflow:hidden;
+}
+#gallery #navigateSlides {
+	clear:both;
+	margin-top:10px;
+}
+#navigateSlides img {
+	margin:0px 5px;
+}
+#slides .active {
+	display:block !important;
+}

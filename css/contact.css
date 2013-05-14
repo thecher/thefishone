@@ -1,0 +1,89 @@
+#contactForm {
+	width:65%;
+	font-size:11pt;
+}
+#contactForm  legend {
+	font-size:15pt;
+	border-bottom:solid 1px #eee;
+	width:100%;
+	padding:0px;
+}
+#contactForm fieldset {
+	border:none;
+	border-bottom:solid 5px #eee;
+	margin:20px 0px;
+	padding:10px 10px 20px 10px;
+}
+#contactForm ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#contactForm li {
+	margin:8px 0px;
+}
+#contactForm input, #contactForm select, #contactForm textarea {
+	border:inset 1px #eee;
+	padding:3px;
+}
+#contactForm input[type="radio"] {
+	width:15px !important;
+	display:inline !important;
+}
+#contactForm li ul li {
+	display:inline;
+	font-size:10pt;
+}
+#contactForm #name label, #contactForm  #message label{
+	display:block;
+	width:130px;
+	float:left;
+}
+#contactForm #name input{
+	display:block;
+	width:300px;
+}
+#contactForm label + input:focus, #contactForm  label + select:focus, #contactForm label + textarea:focus {
+	outline:none;
+	box-shadow:0px 0px 5px #ccc;
+}
+label[for="txtStreet"] {
+	margin-right:5px;
+}
+#txtStreet {
+	width:295px;
+}
+#txtCity {
+	width:150px;
+}
+#txtZip {
+	width:100px;
+}
+#address li:first-child {	
+	display:block;
+	width:400px;
+}
+#address li {
+	float:left;
+	display:inline;
+	margin:5px;
+}
+#message label {
+}
+#contactForm textarea {
+	display:block;
+	width:300px;
+}
+#contactSubmit, #contactReset {
+	padding:5px !important;
+	background:#eee;
+	border-radius:3px;
+	font-size:13pt;
+	border:solid 1px #ccc !important;
+	margin:0px 10px;
+}
+p.error {
+	display:inline;
+	margin:0px;
+	color:#f00;
+}
